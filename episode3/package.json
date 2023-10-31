@@ -1,0 +1,32 @@
+{
+  "name": "episode3",
+  "version": "1.0.0",
+  "description": "This is episode 3rd of namaste react",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sky1sthelimit/namaste-react.git"
+  },
+  "keywords": [
+    "Namaste",
+    "react",
+    "episode",
+    "4"
+  ],
+  "author": "Suyash Jain, (Episode 3)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sky1sthelimit/namaste-react/issues"
+  },
+  "homepage": "https://github.com/sky1sthelimit/namaste-react#readme",
+  "devDependencies": {
+    "parcel": "^2.10.1",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
