@@ -7,7 +7,7 @@
 73D:\Coding\react\namaste_react\episode3\node_modules\@swc\helpers\_\_using133431550307615049 1
 61D:\Coding\react\namaste_react\episode3\node_modules\@mischnic133431550204499816 1
 81D:\Coding\react\namaste_react\episode3\node_modules\lightningcss\node\ast.js.flow133431550230262495 0
-51D:\Coding\react\namaste_react\episode3\package.json133431556806116098 0
+51D:\Coding\react\namaste_react\episode3\package.json133432367251586099 0
 102D:\Coding\react\namaste_react\episode3\node_modules\css-select\node_modules\entities\lib\esm\decode.js133431550240321506 0
 74D:\Coding\react\namaste_react\episode3\node_modules\js-tokens\package.json133431550219969590 0
 83D:\Coding\react\namaste_react\episode3\node_modules\caniuse-lite\data\regions\BM.js133431550286760914 0
@@ -25,14 +25,14 @@
 72D:\Coding\react\namaste_react\episode3\node_modules\react\jsx-runtime.js133431550520943028 0
 79D:\Coding\react\namaste_react\episode3\node_modules\css-tree\lib\lexer\error.js133431550304108417 0
 123D:\Coding\react\namaste_react\episode3\node_modules\@parcel\optimizer-svgo\node_modules\svgo\lib\svgo\css-select-adapter.js133431550257820320 0
-45D:\Coding\react\namaste_react\episode3\App.js133431570090626613 0
+45D:\Coding\react\namaste_react\episode3\App.js133437600800580513 0
 90D:\Coding\react\namaste_react\episode3\node_modules\css-tree\lib\definition-syntax\walk.js133431550306579732 0
 49D:\Coding\react\namaste_react\episode3\.gitignore133431564931486908 0
 83D:\Coding\react\namaste_react\episode3\node_modules\cosmiconfig\dist\index.d.ts.map133431550244320477 0
 78D:\Coding\react\namaste_react\episode3\node_modules\nth-check\lib\esm\index.js133431550226883576 0
 75D:\Coding\react\namaste_react\episode3\node_modules\semver\classes\range.js133431550264283778 0
 82D:\Coding\react\namaste_react\episode3\node_modules\svgo\plugins\removeComments.js133431550267221500 0
-43D:\Coding\react\namaste_react\episode3\dist133431570092610680 1
+43D:\Coding\react\namaste_react\episode3\dist133437601039075216 1
 101D:\Coding\react\namaste_react\episode3\node_modules\caniuse-lite\data\features\css-relative-colors.js133431550304819176 0
 81D:\Coding\react\namaste_react\episode3\node_modules\svgo\plugins\plugins-types.ts133431550292133047 0
 85D:\Coding\react\namaste_react\episode3\node_modules\css-tree\lib\syntax\node\index.js133431550304569258 0
@@ -75,7 +75,7 @@
 76D:\Coding\react\namaste_react\episode3\node_modules\node-addon-api\README.md133431550247445073 0
 76D:\Coding\react\namaste_react\episode3\node_modules\entities\lib\encode.d.ts133431550258797619 0
 106D:\Coding\react\namaste_react\episode3\node_modules\@swc\helpers\_\_class_private_method_init\package.json133431550304869404 0
-49D:\Coding\react\namaste_react\episode3\index.html133431564326515900 0
+49D:\Coding\react\namaste_react\episode3\index.html133432397459584184 0
 97D:\Coding\react\namaste_react\episode3\node_modules\@parcel\optimizer-svgo\node_modules\svgo\dist133431550287076680 1
 60D:\Coding\react\namaste_react\episode3\node_modules\posthtml133431550232146273 1
 108D:\Coding\react\namaste_react\episode3\node_modules\csso\node_modules\css-tree\cjs\syntax\scope\selector.cjs133431550293358518 0
@@ -4418,7 +4418,7 @@
 98D:\Coding\react\namaste_react\episode3\node_modules\caniuse-lite\data\features\webkit-user-drag.js133431550343015082 0
 78D:\Coding\react\namaste_react\episode3\node_modules\@parcel\utils\package.json133431550292193115 0
 88D:\Coding\react\namaste_react\episode3\node_modules\caniuse-lite\data\features\webnfc.js133431550343040261 0
-54D:\Coding\react\namaste_react\episode3\dist\index.html133431569917032106 0
+54D:\Coding\react\namaste_react\episode3\dist\index.html133435783429489789 0
 92D:\Coding\react\namaste_react\episode3\node_modules\caniuse-lite\data\features\websockets.js133431550343060356 0
 94D:\Coding\react\namaste_react\episode3\node_modules\caniuse-lite\data\features\webtransport.js133431550343070337 0
 88D:\Coding\react\namaste_react\episode3\node_modules\caniuse-lite\data\features\webusb.js133431550343080333 0
@@ -5943,5 +5943,5 @@
 65D:\Coding\react\namaste_react\episode3\node_modules\.bin\svgo.cmd133431550343624456 0
 79D:\Coding\react\namaste_react\episode3\node_modules\.bin\update-browserslist-db133431550343634510 0
 83D:\Coding\react\namaste_react\episode3\node_modules\.bin\update-browserslist-db.ps1133431550343624456 0
-61D:\Coding\react\namaste_react\episode3\dist\index.7826abd7.js133431570092285341 0
-65D:\Coding\react\namaste_react\episode3\dist\index.7826abd7.js.map133431570092505467 0
+61D:\Coding\react\namaste_react\episode3\dist\index.7826abd7.js133437601038589330 0
+65D:\Coding\react\namaste_react\episode3\dist\index.7826abd7.js.map133437601038904757 0
