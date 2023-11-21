@@ -1,0 +1,6 @@
+{
+  "contextual": ["record"],
+  "newTabMenu": [],
+  "maxMainTabLimit": 10,
+  "maxTotalSubTabLimit": 30
+}
