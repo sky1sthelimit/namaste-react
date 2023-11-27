@@ -3028,7 +3028,99 @@ const Header = ()=>{
 };
 _c1 = Header;
 //body and its components
-const ResCard = ()=>{
+const restaurants = [
+    {
+        info: {
+            id: "93110",
+            name: "Rajkumar Delite Original (Durga Plaza)",
+            cloudinaryImageId: "hwoi4pyewupobthpazth",
+            locality: "Dhanwantri Marg",
+            areaName: "Madhav Nagar",
+            costForTwo: "\u20B9250 for two",
+            cuisines: [
+                "North Indian",
+                "Thalis",
+                "Snacks",
+                "Indian"
+            ],
+            avgRating: 4.1,
+            veg: true,
+            feeDetails: {
+                restaurantId: "93110",
+                fees: [
+                    {
+                        name: "BASE_DISTANCE",
+                        fee: 1300
+                    },
+                    {
+                        name: "BASE_TIME"
+                    },
+                    {
+                        name: "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                totalFee: 1300
+            },
+            parentId: "165710",
+            avgRatingString: "4.1",
+            totalRatingsString: "1K+",
+            sla: {
+                deliveryTime: 22,
+                lastMileTravel: 1.5,
+                serviceability: "SERVICEABLE",
+                slaString: "22 mins",
+                lastMileTravelString: "1.5 km",
+                iconType: "ICON_TYPE_EMPTY"
+            },
+            availability: {
+                nextCloseTime: "2023-11-21 22:30:00",
+                opened: true
+            },
+            badges: {},
+            isOpen: true,
+            type: "F",
+            badgesV2: {
+                entityBadges: {
+                    imageBased: {},
+                    textBased: {},
+                    textExtendedBadges: {}
+                }
+            },
+            aggregatedDiscountInfoV3: {
+                header: "FREE ITEM"
+            },
+            orderabilityCommunication: {
+                title: {},
+                subTitle: {},
+                message: {},
+                customIcon: {}
+            },
+            differentiatedUi: {
+                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                differentiatedUiMediaDetails: {
+                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
+                    lottie: {},
+                    video: {}
+                }
+            },
+            reviewsSummary: {},
+            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            restaurantOfferPresentationInfo: {}
+        },
+        analytics: {
+            context: "seo-data-ca51fa94-d6d1-4c35-ab77-08ffa55ef5bf"
+        },
+        cta: {
+            link: "https://www.swiggy.com/restaurants/rajkumar-delite-original-durga-plaza-dhanwantri-marg-madhav-nagar-ujjain-93110",
+            text: "RESTAURANT_MENU",
+            type: "WEBLINK"
+        },
+        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    }
+];
+const ResCard = (props)=>{
+    let { restaurant } = props;
+    let source = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" + restaurant.info.cloudinaryImageId;
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "res-card",
         children: [
@@ -3037,53 +3129,49 @@ const ResCard = ()=>{
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                     className: "res-image",
                     alt: "res-logo",
-                    src: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/86094b1e069bf5f473c4b52a57248db1"
+                    src: source
                 }, void 0, false, {
                     fileName: "App.js",
-                    lineNumber: 38,
+                    lineNumber: 128,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 37,
+                lineNumber: 127,
                 columnNumber: 7
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "res-name",
-                children: "RestName"
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                children: restaurant.info.name
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 44,
+                lineNumber: 130,
                 columnNumber: 7
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "star-rating",
-                children: "3.5"
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                children: restaurant.info.avgRatingString
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 45,
+                lineNumber: 131,
                 columnNumber: 7
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "eta",
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                 children: "21 mins"
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 46,
+                lineNumber: 132,
                 columnNumber: 7
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "cuisines",
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                 children: "North Indian"
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 47,
+                lineNumber: 133,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.js",
-        lineNumber: 36,
+        lineNumber: 126,
         columnNumber: 5
     }, undefined);
 };
@@ -3091,14 +3179,16 @@ _c2 = ResCard;
 const ResItems = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "res-items",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ResCard, {}, void 0, false, {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ResCard, {
+            restaurant: restaurants[0]
+        }, void 0, false, {
             fileName: "App.js",
-            lineNumber: 55,
+            lineNumber: 141,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "App.js",
-        lineNumber: 54,
+        lineNumber: 140,
         columnNumber: 5
     }, undefined);
 };
@@ -3112,25 +3202,25 @@ const Body = ()=>{
                 children: "Search"
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 63,
+                lineNumber: 149,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "res-items-container",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ResItems, {}, void 0, false, {
                     fileName: "App.js",
-                    lineNumber: 65,
+                    lineNumber: 151,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 64,
+                lineNumber: 150,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.js",
-        lineNumber: 62,
+        lineNumber: 148,
         columnNumber: 5
     }, undefined);
 };
@@ -3141,18 +3231,18 @@ const AppLayout = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Header, {}, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 74,
+                lineNumber: 160,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Body, {}, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 75,
+                lineNumber: 161,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.js",
-        lineNumber: 73,
+        lineNumber: 159,
         columnNumber: 5
     }, undefined);
 };
@@ -3160,7 +3250,7 @@ _c5 = AppLayout;
 var root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
     fileName: "App.js",
-    lineNumber: 81,
+    lineNumber: 167,
     columnNumber: 13
 }, undefined));
 var _c, _c1, _c2, _c3, _c4, _c5;

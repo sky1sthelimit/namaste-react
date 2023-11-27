@@ -28,16 +28,24 @@
   margin: 1px;
 }
 
+.res-items-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
 .res-card {
   border: 1px solid #000;
+  flex-direction: column;
   width: 200px;
-  height: 250px;
+  height: 350px;
   margin: 5px;
+  padding: 5px;
+  display: flex;
 }
 
 .res-image {
-  width: 190px;
-  margin: 5px;
+  width: 100%;
+  margin-top: 1px;
 }
 
 /*# sourceMappingURL=index.9e4c6fd2.css.map */
